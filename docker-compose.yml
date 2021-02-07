@@ -1,0 +1,7 @@
+version: '2.0'
+services:
+  mailhog:
+    ports:
+      - 1025:1025  # SMTP
+      - 8025:8025  # HTTP
+    image: mailhog/mailhog
